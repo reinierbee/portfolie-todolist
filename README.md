@@ -1,11 +1,11 @@
 # portfolie-todolist
 Simple todo list using nodejs and mongodb
 
-#prerequisite,
+# prerequisite,
 Installed NodeJs
 
-#Install app using nodejs
+# Install app using nodejs
 npm install
 
-#Run the app
+# Run the app
 node app.js OR nodemon app.js
