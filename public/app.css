@@ -1,3 +1,93 @@
+/* general styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1 {
+  font-weight: normal;
   font-size: 60px;
+}
+
+h1 b {
+  font-size: 74px;
+}
+
+body {
+  font: normal 20px Poppins;
+  color: #042037;
+  background-color: #718EA4;
+}
+
+.container-main > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul, nav {
+  list-style: none;
+}
+
+.background-image {
+  background-image: url(bg.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+.container-main{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* add todo */
+
+/* todos */
+#todo {
+  /* background-color: #496D89; */
+  margin: 20px;
+  /* border: solid 1px #294F6D; */
+  flex-grow: 1;
+}
+
+.todo {
+  flex-basis: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.todo i {
+  padding-left: 20px;
+}
+
+.todo a {
+  flex-grow: 1;
+}
+
+.todo:hover{
+  background-color: #294F6D;
+  transition: 1s;
 }
