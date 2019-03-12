@@ -118,9 +118,11 @@ header {
 
 .todo i {
   padding-left: 20px;
+  cursor: pointer;
 }
 
 .todo a {
+  cursor: pointer;
   flex-grow: 1;
 }
 
