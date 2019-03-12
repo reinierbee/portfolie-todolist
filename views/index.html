@@ -2,7 +2,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Travel blog</title>
+    <title>Todo list</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
@@ -13,19 +14,14 @@
     <div class="background-image" style="background-image: url(bg.jpg);"></div>
     <div class='container-main'>
       <header>
-        <h1>Todo List <b>van ???</b></h1>
+        <h1>Todo List <b>van reinier</b></h1>
       </header>
       <section id="add-todo">
         <input type="text" placeholder="New todo is ..."></input>
-        <a class="btn">Add</a>
+        <!-- <a class="btn">Add</a> -->
       </section>
       <section id="todo">
-        <ul class="grid">
-          <li class="todo"><a>Demo Item</a><i class="fas fa-edit"></i><i class="fas fa-trash-alt"></i></li>
-          <li class="todo"><a>Another one</a><i class="fas fa-edit"></i><i class="fas fa-trash-alt"></i></li>
-          <li class="todo done"><a>Done item</a><i class="fas fa-edit"></i><i class="fas fa-trash-alt"></i></li>
-          <li class="todo done"><a>Done item number 2</a><i class="fas fa-edit"></i><i class="fas fa-trash-alt"></i></li>
-          <li class="todo"><a>Drink coffee with paco</a><i class="fas fa-edit"></i><i class="fas fa-trash-alt"></i></li>
+        <ul id="gridtodo" class="grid">
         </ul>
       </section>
     </div>
